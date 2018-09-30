@@ -16,7 +16,11 @@ const json = {
   maxTimeToFinishPage: 10,
   maxTimeToFinish: 25,
   firstPageIsStarted: true,
-  startSurveyText: 'Start Quiz',
+  showPageNumbers: true,
+  startSurveyText: 'START',
+  pagePrevText: 'PREVIOUS',
+  pageNextText: 'NEXT',
+  completeText: 'SUBMIT',
   pages: [
     {
       questions: [
@@ -59,11 +63,6 @@ const json = {
       ]
     }
   ],
-  showPageNumbers: true,
-  startSurveyText: 'START',
-  pagePrevText: 'PREVIOUS',
-  pageNextText: 'NEXT',
-  completeText: 'SUBMIT',
   completedHtml: '<h4>You have answered correctly <b>{correctedAnswers}</b> questions from <b>{questionCount}</b>.</h4>'
 }
 
